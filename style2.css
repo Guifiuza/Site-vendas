@@ -1,0 +1,1060 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('fonte/gin_fight.zip');
+@font-face{
+    font-family: gin_fight;
+    src: url('fonte/Gin\ Fight.ttf');
+}
+
+h1{
+    font-family: gin_fight;
+    position: absolute;
+    font-size: 40px;
+    left: 200px;
+    top: 200px;
+}
+
+.mostruario{
+    position: absolute;
+    top: 330px;
+    left: 170px;
+    background-color: rgba(255, 255, 255, 0.636);
+    width: 80vw;
+    height: 1000px
+
+}
+div > a{
+    text-decoration: none;
+}
+
+.moletom-off-1{
+    padding: 60px;
+    width: 200px;
+    height: 259px;
+    border: 3px solid black;
+}
+
+.moletom-off-1:hover{
+    background-color: rgba(128, 128, 128, 0.321);
+    border-color: rgba(255, 77, 0, 0.608);
+    
+}
+
+.marca-1{
+    font-size: 22px;
+    position: absolute;
+    top: 05px;
+    left: 80px;
+}
+
+.preço-1{
+    position: absolute;
+    top: 310px;
+    left: 120px;
+}
+
+.camisetaoff1{
+    position: absolute;
+    left: 455px;
+    top: 0px;
+    padding: 60px;
+    width: 200px;
+    height: 259px;
+    border: 3px solid black;
+}
+
+.camisetaoff1:hover{
+    background-color: rgba(128, 128, 128, 0.321);
+    border-color: rgba(255, 77, 0, 0.608);
+    
+}
+
+.camiseta-off1{
+    position: absolute;
+    top: 70px;
+    left: 68px;
+    width: 180px;
+    height: 241px;
+}
+
+.camisetaoff2{
+    position: absolute;
+    top: 0px;
+    left: 905px;
+    border: 3px solid black;
+    width: 320px;
+    height: 379px;
+}
+
+.camisetaoff2:hover{
+    background-color: rgba(128, 128, 128, 0.321);
+    border-color: rgba(255, 77, 0, 0.608);
+    
+}
+
+.marca-2{
+    font-size: 22px;
+    position: absolute;
+    top: 05px;
+    left: 80px;
+}
+
+.preço-2{
+    position: absolute;
+    top: 310px;
+    left: 120px;
+}
+
+.camiseta-off2{
+    position: relative;
+    top: 70px;
+    left: 80px;
+    width: 180px;
+    height: 241px;
+}
+
+.marca-3{
+    font-size: 22px;
+    position: absolute;
+    top: 05px;
+    left: 60px;
+}
+
+.preço-3{
+    position: absolute;
+    top: 310px;
+    left: 120px;
+}
+
+.casaconike{
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    border: 3px solid black;
+    width: 320px;
+    height: 379px;
+}
+
+.casaconike:hover{
+    background-color: rgba(128, 128, 128, 0.321);
+    border-color: rgba(255, 77, 0, 0.608);
+    
+}
+
+.casaco-nike{
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    left: 40px;
+    top: 70px;
+}
+
+.marca-4{
+    font-size: 22px;
+    position: absolute;
+    top: 05px;
+    left: 60px;
+}
+
+.preço-4{
+    position: absolute;
+    top: 310px;
+    left: 120px;
+}
+
+.jaqueta-nike{
+    position: absolute;
+    top: 500px;
+    left: 455px;
+    border: 3px solid black;
+    width: 320px;
+    height: 379px;
+}
+
+.jaqueta-nike:hover{
+    background-color: rgba(128, 128, 128, 0.321);
+    border-color: rgba(255, 77, 0, 0.608);
+    
+}
+
+.jaqueta-nike2{
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    top: 70px;
+    left: 45px;
+}
+
+.marca-5{
+    font-size: 22px;
+    position: absolute;
+    top: 05px;
+    left: 60px;
+}
+
+.preço-5{
+    position: absolute;
+    top: 310px;
+    left: 120px;
+}
+
+.camisetanike{
+    position: absolute;
+    top: 500px;
+    left: 905px;
+    border: 3px solid black;
+    width: 320px;
+    height: 379px;
+}
+
+.camisetanike:hover{
+    background-color: rgba(128, 128, 128, 0.321);
+    border-color: rgba(255, 77, 0, 0.608);
+    
+
+}
+
+.camiseta-nike{
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    top: 70px;
+    left: 45px;
+}
+
+.marca-6{
+    font-size: 22px;
+    position: absolute;
+    top: 05px;
+    left: 78px;
+}
+
+.preço-6{
+    position: absolute;
+    top: 310px;
+    left: 120px;
+}
+
+.bucketnike{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 3px solid black;
+    width: 320px;
+    height: 379px;
+}
+
+.bucketnike:hover{
+    background-color: rgba(128, 128, 128, 0.321);
+    border-color: rgba(255, 77, 0, 0.608);
+    
+}
+
+.bucket-nike1{
+    position: absolute;
+    width: 220px;
+    height: 120px;
+    top: 118px;
+    left: 53px;
+}
+
+.toucanike{
+    position: absolute;
+    top: 0px;
+    left: 450px;
+    border: 3px solid black;
+    width: 320px;
+    height: 379px;
+}
+
+.toucanike:hover{
+    background-color: rgba(128, 128, 128, 0.321);
+    border-color: rgba(255, 77, 0, 0.608);
+    
+}
+
+.touca-nike{
+    position: absolute;
+    width: 170px;
+    height: 185px;
+    top: 80px;
+    left: 73px;
+}
+
+.marca-7{
+    font-size: 22px;
+    position: absolute;
+    top: 05px;
+    left: 56px;
+}
+
+.preço-7{
+    position: absolute;
+    top: 310px;
+    left: 120px;
+}
+
+.bonenike{
+    position: absolute;
+    top: 0px;
+    left: 904px;
+    border: 3px solid black;
+    width: 320px;
+    height: 379px;
+}
+
+.bonenike:hover{
+    background-color: rgba(128, 128, 128, 0.321);
+    border-color: rgba(255, 77, 0, 0.608);
+    
+}
+
+.bone-nike{
+    position: absolute;
+    width: 170px;
+    height: 146px;
+    top: 110px;
+    left: 73px;
+}
+
+.marca-8{
+    font-size: 22px;
+    position: absolute;
+    top: 05px;
+    left: 56px;
+}
+
+.preço-8{
+    position: absolute;
+    top: 310px;
+    left: 120px;
+}
+
+.bucketnorth{
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    border: 3px solid black;
+    width: 320px;
+    height: 379px;
+}
+
+.bucketnorth:hover{
+    background-color: rgba(128, 128, 128, 0.321);
+    border-color: rgba(255, 77, 0, 0.608);
+    
+}
+
+.bucket-north{
+    position: absolute;
+    width: 220px;
+    height: 171px;
+    top: 95px;
+    left: 50px;
+}
+
+.marca-9{
+    font-size: 22px;
+    position: absolute;
+    top: 05px;
+    left: 56px;
+}
+
+.preço-9{
+    position: absolute;
+    top: 310px;
+    left: 120px;
+}
+
+.buckethigh{
+    position: absolute;
+    top: 500px;
+    left: 450px;
+    border: 3px solid black;
+    width: 320px;
+    height: 379px;
+}
+
+.buckethigh:hover{
+    background-color: rgba(128, 128, 128, 0.321);
+    border-color: rgba(255, 77, 0, 0.608);
+    
+}
+
+.bucket-high{
+    position: absolute;
+    width: 200px;
+    height: 172px;
+    top: 85px;
+    left: 60px;
+}
+
+.marca-10{
+    font-size: 22px;
+    position: absolute;
+    top: 05px;
+    left: 56px;
+}
+
+.preço-10{
+    position: absolute;
+    top: 310px;
+    left: 120px;
+}
+
+.buckethigh2{
+    position: absolute;
+    top: 500px;
+    left: 905px;
+    border: 3px solid black;
+    width: 320px;
+    height: 379px;
+}
+
+.buckethigh2:hover{
+    background-color: rgba(128, 128, 128, 0.321);
+    border-color: rgba(255, 77, 0, 0.608);
+    
+}
+
+
+.bucket-high2{
+    position: absolute;
+    width: 200px;
+    height: 139px;
+    top: 105px;
+    left: 65px;
+}
+
+.marca-11{
+    font-size: 22px;
+    position: absolute;
+    top: 05px;
+    left: 56px;
+}
+
+.preço-11{
+    position: absolute;
+    top: 310px;
+    left: 120px;
+}
+
+.tenisoff{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 3px solid black;
+    width: 320px;
+    height: 379px;
+}
+
+.tenisoff:hover{
+    background-color: rgba(128, 128, 128, 0.321);
+    border-color: rgba(255, 77, 0, 0.608);
+}
+
+.tenis-off{
+    position: absolute;
+    width: 200px;
+    height: 97px;
+    top: 140px;
+    left: 65px;
+}
+
+.marca-12{
+    font-size: 22px;
+    position: absolute;
+    top: 05px;
+    left: 90px;
+}
+
+.preço-12{
+    position: absolute;
+    top: 310px;
+    left: 120px;
+}
+
+.tenisnikesup{
+    position: absolute;
+    top: 0px;
+    left: 450px;
+    border: 3px solid black;
+    width: 320px;
+    height: 379px;
+}
+
+.tenisnikesup:hover{
+    background-color: rgba(128, 128, 128, 0.321);
+    border-color: rgba(255, 77, 0, 0.608);
+}
+
+.tenis-nike-sup{
+    position: absolute;
+    width: 200px;
+    height: 88px;
+    top: 145px;
+    left: 70px;
+}
+
+.marca-13{
+    font-size: 22px;
+    position: absolute;
+    top: 05px;
+    left: 75px;
+}
+
+.preço-13{
+    position: absolute;
+    top: 310px;
+    left: 120px;
+}
+
+.niketiffany{
+    position: absolute;
+    top: 0px;
+    left: 906px;
+    border: 3px solid black;
+    width: 320px;
+    height: 379px;
+}
+
+.niketiffany:hover{
+    background-color: rgba(128, 128, 128, 0.321);
+    border-color: rgba(255, 77, 0, 0.608);
+}
+
+.nike-tiffany{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: 135px;
+    left: 75px;
+}
+
+.marca-14{
+    font-size: 22px;
+    position: absolute;
+    top: 05px;
+    left: 65px;
+}
+
+.preço-14{
+    position: absolute;
+    top: 310px;
+    left: 120px;
+}
+
+.nikeoff{
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    border: 3px solid black;
+    width: 320px;
+    height: 379px;
+}
+
+.nikeoff:hover{
+    background-color: rgba(128, 128, 128, 0.321);
+    border-color: rgba(255, 77, 0, 0.608);
+}
+
+.nike-off{
+    position: absolute;
+    width: 200px;
+    height: 90px;
+    top: 140px;
+    left: 65px;
+}
+
+.marca-15{
+    font-size: 22px;
+    position: absolute;
+    top: 05px;
+    left: 80px;
+}
+
+.preço-15{
+    position: absolute;
+    top: 310px;
+    left: 110px;    
+}
+
+.tenisyeezy{
+    position: absolute;
+    top: 500px;
+    left: 450px;
+    border: 3px solid black;
+    width: 320px;
+    height: 379px;
+}
+
+.tenisyeezy:hover{
+    background-color: rgba(128, 128, 128, 0.321);
+    border-color: rgba(255, 77, 0, 0.608);
+}
+
+.tenis-yeezy{
+    position: absolute;
+    width: 200px;
+    height: 96px;
+    top: 130px;
+    left: 65px;
+}
+
+.marca-16{
+    font-size: 22px;
+    position: absolute;
+    top: 05px;
+    left: 70px;
+}
+
+.preço-16{
+    position: absolute;
+    top: 310px;
+    left: 110px;
+}
+
+.tenisprada{
+    position: absolute;
+    top: 500px;
+    left: 904px;
+    border: 3px solid black;
+    width: 320px;
+    height: 379px;
+}
+
+.tenisprada:hover{
+    background-color: rgba(128, 128, 128, 0.321);
+    border-color: rgba(255, 77, 0, 0.608);
+}
+
+.tenis-prada{
+    position: absolute;
+    width: 200px;
+    height: 88px;
+    top: 130px;
+    left: 75px;
+}
+
+.marca-17{
+    font-size: 22px;
+    position: absolute;
+    top: 05px;
+    left: 80px;
+}
+
+.preço-17{
+    position: absolute;
+    top: 310px;
+    left: 120px;
+}
+
+.fundo-frete{
+    position: absolute;
+    left: 115px;
+    background-color: white;
+    width: 85vw;
+    height: 2200px;
+}
+
+.titulo{
+    font-size: 35px;
+    position: absolute;
+    top: 70px;
+    left: 500px;
+}
+
+.p1 {
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    top: 150px;
+    line-height: 1.7;
+    
+}
+
+.t2{
+    font-size: 27px;
+    position: absolute;
+    top: 200px;
+    left: 470px;
+}
+
+.p2{
+    font-size: 18px;
+    position: absolute;
+    left: 470px;
+    top: 250px;
+    width: 350px;
+    line-height: 1.7;
+}
+
+.t3{
+    font-size: 27px;
+    position: absolute;
+    top: 520px;
+    left: 470px;
+    
+}
+
+.p3{
+    font-size: 18px;
+    position: absolute;
+    left: 470px;
+    top: 580px;
+    width: 350px;
+    line-height: 1.7;
+}
+
+.t4{
+    font-size: 27px;
+    position: absolute;
+    top: 1250px;
+    left: 470px;
+}
+
+.lista{
+    font-size: 18px;
+    position: absolute;
+    left: 450px;
+    top: 1350px;
+    width: 350px;
+}
+
+.t5{
+    font-size: 27px;
+    position: absolute;
+    font-size: 18px;
+    left: 470px;
+    top: 1300px;
+}
+
+.t6{
+    font-size: 27px;
+    position: absolute;
+    font-size: 18px;
+    left: 470px;
+    top: 1500px;
+}
+
+.lista2{
+    font-size: 18px;
+    position: absolute;
+    left: 450px;
+    top: 1550px;
+    width: 350px;
+}
+
+.t7{
+    font-size: 27px;
+    position: absolute;
+    font-size: 18px;
+    left: 470px;
+    top: 1700px;
+}
+
+.lista3{
+    font-size: 18px;
+    position: absolute;
+    left: 450px;
+    top: 1750px;
+    width: 350px;
+}
+
+.reembolso{
+    position: absolute;
+    left: 115px;
+    background-color: white;
+    width: 85vw;
+    height: 2300px;
+}
+
+.rt1{
+    font-size: 35px;
+    position: absolute;
+    top: 70px;
+    left: 460px;
+}
+
+.rt2{
+    font-size: 27px;
+    position: absolute;
+    top: 140px;
+    left: 417px;
+}
+
+.rp1{
+    font-size: 18px;
+    position: absolute;
+    left: 415px;
+    top: 200px;
+    width: 610px;
+    line-height: 1.7;
+}
+
+.rt3{
+    font-size: 27px;
+    position: absolute;
+    top: 430px;
+    left: 410px;
+}
+
+.rp2{
+    font-size: 18px;
+    position: absolute;
+    left: 420px;
+    top: 490px;
+    width: 610px;
+    line-height: 1.7;
+}
+
+.rp3{
+    position: absolute;
+    font-size: 18px;
+    left: 420px;
+    top: 620px;
+    line-height: 1.7;
+    width: 610px;
+}
+
+.rt4{
+    font-size: 27px;
+    position: absolute;
+    top: 840px;
+    left: 420px;
+}
+
+.rp4{
+    font-size: 18px;
+    position: absolute;
+    top: 890px;
+    left: 420px;
+    line-height: 1.7;
+    width: 610px;
+}
+
+.rt5{
+    font-size: 27px;
+    position: absolute;
+    top: 1090px;
+    left: 420px;
+}
+
+.rp5{
+    font-size: 18px;
+    position: absolute;
+    top: 1140px;
+    left: 420px;
+    line-height: 1.7;
+    width: 610px;
+}
+
+.rt6{
+    font-size: 27px;
+    position: absolute;
+    top: 1350px;
+    left: 420px;
+}
+
+.rp6{
+    font-size: 18px;
+    position: absolute;
+    top: 1410px;
+    left: 420px;
+    line-height: 1.7;
+    width: 610px;
+}
+
+.rp7{
+    font-size: 18px;
+    position: absolute;
+    top: 1570px;
+    left: 420px;
+    line-height: 1.7;
+    width: 610px;
+}
+
+.rt7{
+    font-size: 27px;
+    position: absolute;
+    top: 1730px;
+    left: 420px;
+}
+
+.rp8{
+    font-size: 18px;
+    position: absolute;
+    top: 1790px;
+    left: 420px;
+    line-height: 1.7;
+    width: 610px;
+}
+
+.rp9{
+    font-size: 18px;
+    position: absolute;
+    top: 1950px;
+    left: 420px;
+    line-height: 1.7;
+    width: 610px;
+}
+
+.entrar{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.536);
+    width: 550px;
+    height: 400px;
+    top: 270px;
+    left: 470px;
+}
+
+.logar1{
+    font-size: 35px;
+    position: absolute;
+    top: 15px;
+    left: 220px;
+}
+
+#email{
+    position: absolute;
+    top: 130px;
+    left: 39px;
+    width: 450px;
+    height: 38px;
+    border: 1px solid black;
+}
+
+.email{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.733);
+    padding-left: 20px;
+}
+
+ ::placeholder{
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.675);
+ }
+
+ #senha{
+    position: absolute;
+    top: 180px;
+    left: 39px;
+    width: 450px;
+    height: 38px;
+    border: 1px solid black;
+ }
+
+.senha{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.733);
+    padding-left: 20px;
+}
+
+.enviar{
+    position: absolute;
+    top: 230px;
+    left: 39px;
+    width: 474px;
+    height: 38px;
+    border: 1px solid black;
+}
+
+.esqueceu{
+    position: absolute;
+    top: 295px;
+    left: 210px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.esqueceu:visited{
+    color: inherit;
+}
+
+.criar-conta{
+    position: absolute;
+    top: 325px;
+    left: 240px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.criar-conta:visited{
+    color: inherit;
+}
+
+.criarconta{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.536);
+    width: 550px;
+    height: 400px;
+    top: 270px;
+    left: 470px;
+}
+
+.criação{
+    position: absolute;
+    top: 5px;
+    left: 180px;
+}
+
+#nome{
+    position: absolute;
+    top: 105px;
+    left: 39px;
+    width: 450px;
+    height: 38px;
+    border: 1px solid black;
+}
+
+.nome{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.733);
+    padding-left: 20px;
+}
+
+#sobrenome{
+    position: absolute;
+    top: 165px;
+    left: 39px;
+    width: 450px;
+    height: 38px;
+    border: 1px solid black;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.733);
+    padding-left: 20px;
+}
+
+#cemail{
+    position: absolute;
+    top: 220px;
+    left: 39px;
+    width: 450px;
+    height: 38px;
+    border: 1px solid black;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.733);
+    padding-left: 20px;
+}
+
+#pass{
+    position: absolute;
+    top: 273px;
+    left: 39px;
+    width: 450px;
+    height: 38px;
+    border: 1px solid black;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.733);
+    padding-left: 20px;
+}
+
+.criando{
+    position: absolute;
+    top: 330px;
+    left: 39px;
+    width: 474px;
+    height: 38px;
+    border: 1px solid black;
+}

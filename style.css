@@ -1,0 +1,380 @@
+
+@charset "UTF-08";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+:root{
+    --cor01: #04B2D9;
+    --cor02: #012840;
+    --cor03: #011526;
+    --cor04: #0583F2;
+    --cor05: #BC04BF;
+}
+
+body{
+    background-color: #D9D0C1;
+    background-image: url('imagens/pexels-italo-melo-2378959.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.347), rgba(255, 255, 255, 0.407), rgba(128, 128, 128, 0.401));
+    height: 180px;
+    width: 100%;
+    box-shadow: 10px 10px 93px -6px rgba(255, 255, 255, 0.167);
+}
+
+#logo{
+    position: absolute;
+    max-width: 135px;
+    bottom: 600px;
+    left: 20px;
+}
+
+.home{
+    font-size: 20px;
+    padding: 4px;
+    color: rgba(0, 0, 0, 0.762);
+    border-radius: 06px;
+    position: absolute;
+    text-decoration: none;
+    left: 650px;
+    top: 132px;
+    
+}
+
+.home:hover{
+    transform: translate(-8px, -8px);
+    transition: .2s;
+    color: rgba(255, 77, 0, 0.852);
+   
+}
+
+.support{
+    font-size: 20px;
+    padding: 4px;
+    color: rgba(0, 0, 0, 0.762);
+    border-radius: 06px;
+    position: absolute;
+    text-decoration: none;
+    left: 770px;
+    top: 132px;
+}
+
+.support:hover{
+    transform: translate(-8px, -8px);
+    transition: .2s;
+    color: rgba(255, 77, 0, 0.784);
+}
+
+.logar{
+    position: absolute;
+    left: 1350px;
+    top: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.762);
+}
+
+.logar:hover{
+    transform: translate(-8px, -8px);
+    transition: .2s;
+    color: rgba(255, 77, 0, 0.852);
+}
+
+
+.criar{
+    position: absolute;
+    left: 1420px;
+    top: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.762);
+}
+
+.criar:hover{
+    transform: translate(-8px, -8px);
+    transition: .2s;
+    color: rgba(255, 77, 0, 0.852);
+}
+
+#pesquisar {
+    position: absolute;
+    left: 1190px;
+    top: 150px;
+    font-size: 13px;
+    text-decoration: none;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.633);
+    height: 17px;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.logoo{
+   height: 300px;
+    width: 300px;
+    background-color: black;
+}
+
+#ft1{
+    position: absolute;
+    
+    background-color: pink;
+}
+
+.istreetwear{
+    position: absolute;
+    top: 320px;
+    left: 130px;
+    background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.378), rgba(255, 255, 255, 0.521));
+    width: 350px;
+    height: 350px;
+    box-shadow: 6px 5px 70px black;
+}
+
+.istreetwear:hover{
+    background-color: rgba(128, 128, 128, 0.489);
+    transform: translate(-8px, -8px);
+}
+
+.link-camisa{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+.streetwear{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 50px;
+    top: 75px;
+}
+
+.iheadwear{
+    position: absolute;
+    top: 320px;
+    left: 575px;
+    background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.378), rgba(255, 255, 255, 0.521));
+    width: 350px;
+    height: 350px;
+    box-shadow: 6px 5px 70px black;
+}
+
+.iheadwear:hover{
+    background-color: rgba(128, 128, 128, 0.496);
+    transform: translate(-8px, -8px);
+}
+
+.link-cabeça{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.headwear{
+  position: absolute;
+  width: 240px;
+  height: 157px;
+  left: 40px;
+  top: 110px;
+}
+
+.isneaker{
+    position: absolute;
+    top: 320px;
+    left: 1030px;
+    background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.378), rgba(255, 255, 255, 0.521));
+    width: 350px;
+    height: 350px;
+    box-shadow: 6px 5px 70px black;
+}
+
+.isneaker:hover{
+    background-color: rgba(128, 128, 128, 0.493);
+    transform: translate(-8px, -8px);
+}
+
+.link-pe{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.sneakers{
+    position: absolute;
+    width: 275px;
+    height: 133px;
+    left: 40px;
+    top: 110px;
+}
+
+.fundo{
+    position: absolute;
+    top: 850px;
+    background-color: black;
+    width: 100vw;
+    height: 30vh;
+}
+
+.sup{
+    position: absolute;
+    font-size: 20px;
+    top: 10px;
+    left: 1180px;
+    color: white;
+
+}
+
+.follow{
+    position: absolute;
+    font-size: 20px;
+    top: 10px;
+    left: 700px;
+    color: white;
+}
+
+.menu{
+    position: absolute;
+    font-size: 20px;
+    top: 10px;
+    left: 270px;
+    color: white;
+}
+
+.roda-menu{
+    position: absolute;
+    top: 70px;
+    left: 275px;
+    color: gray;
+    text-decoration: none;
+}
+
+.roda-menu:hover{
+    color: white;
+}
+
+.roda-streetwear{
+    position: absolute;
+    top: 100px;
+    left: 275px;
+    color: gray;
+    text-decoration: none;
+}
+
+.roda-streetwear:hover{
+    color: white;
+}
+
+.roda-headwear{
+    position: absolute;
+    top: 130px;
+    left: 275px;
+    color: gray;
+    text-decoration: none;
+}
+
+.roda-headwear:hover{
+    color: white;
+}
+
+.roda-sneakers{
+    position: absolute;
+    top: 160px;
+    left: 275px;
+    color: gray;
+    text-decoration: none;
+}
+
+.roda-sneakers:hover{
+    color: white;
+}
+
+.logo-social{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 735px;
+    top: 60px;
+}
+
+.logo-social:hover{
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.social-logo{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 735px;
+    top: 120px;
+}
+
+.social-logo:hover{
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.entrega{
+    position: absolute;
+    left: 1170px;
+    top: 65px;
+    text-decoration: none;
+    color: gray;
+}
+
+.entrega:hover{
+    color: white;
+}
+
+.troca{
+    position: absolute;
+    left: 1170px;
+    top: 93px;
+    text-decoration: none;
+    color: gray;
+}
+
+.troca:hover{
+    color: white;
+}
+
+.termos{
+    position: absolute;
+    left: 1170px;
+    top: 120px;
+    text-decoration: none;
+    color: gray;
+}
+
+.termos:hover{
+    color: white;
+}
+
+.contatos{
+    position: absolute;
+    left: 1170px;
+    top: 145px;
+    text-decoration: none;
+    color: gray;
+}
+
+.contatos:hover{
+    color: white;
+}
